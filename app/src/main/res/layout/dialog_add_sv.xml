@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/ic_cornerradius"
+
+    >
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_dialog_addlop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:text="@string/themSV"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_dialog_addSV_masv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@+id/tv_dialog_addlop"
+        android:hint="@string/maSV"
+        >
+
+        <EditText
+            android:id="@+id/tv_dialog_addSV_masv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_dialog_addSV_tenSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@+id/tv_dialog_addSV_masv"
+        android:hint="@string/tenSV">
+
+        <EditText
+            android:id="@+id/tv_dialog_addSV_tenSV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/linl1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv_dialog_addSV_tenSV"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lớp :"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginVertical="10dp"/>
+        <Spinner
+            android:id="@+id/tv_dialog_addSV_malop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginVertical="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/linl2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linl1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm sinh :"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginVertical="10dp"/>
+        <Spinner
+            android:id="@+id/tv_dialog_addSV_namsinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginVertical="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/linl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_dialog_addlop_huy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/huy"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_dialog_addlop_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/dongy"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</RelativeLayout>

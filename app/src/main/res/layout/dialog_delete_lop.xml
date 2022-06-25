@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_cornerradius"
+    >
+    <TextView
+        android:id="@+id/tv_view_bancomuonxoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ban_muon_xoa"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="32dp"
+
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+
+        android:layout_below="@+id/tv_view_bancomuonxoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn_dialog_xoalop_huy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/huy"
+            android:backgroundTint="@color/purple_700"/>
+        <Button
+            android:id="@+id/btn_dialog_xoalop_dongy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/dongy"
+            android:backgroundTint="@color/purple_700"/>
+    </LinearLayout>
+</RelativeLayout>

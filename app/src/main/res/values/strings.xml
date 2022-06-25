@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Học Tập FPoly</string>
+    <string name="course">Course</string>
+    <string name="news">News</string>
+    <string name="social">Social</string>
+    <string name="maps">Maps</string>
+    <string name="splash_toaile">Assignment Android Nâng Cao</string>
+    <string name="ph13373">ph13373 Lê Văn Toại</string>
+    <string name="ban_muon_xoa">Bạn có muốn xóa?</string>
+    <string name="huy">Hủy</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="themlop">Thêm lớp</string>
+    <string name="themSV">Thêm Sinh Viên</string>
+    <string name="malop">Mã lớp</string>
+    <string name="maSV">Mã Sinh Viên</string>
+    <string name="tenlop">Tên lớp</string>
+    <string name="tenSV">Tên Sinh Viên</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">686179786115185</string>
+</resources>
